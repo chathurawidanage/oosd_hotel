@@ -1,4 +1,5 @@
-oosd_hotel
+OOSD project - Hotel Management System
 ==========
 
-Hotel management system for Ranawaka cateres
+Team members
+
