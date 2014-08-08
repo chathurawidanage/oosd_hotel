@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package hotelmanagment;
+package interfaces;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -17,14 +16,16 @@ import javafx.stage.Stage;
  * @author Chathura
  */
 public class HotelManagment extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+        Parent root = FXMLLoader.load(getClass().getResource("/interfaces/login/login.fxml"));
+
         Scene scene = new Scene(root);
-        
+        scene.getStylesheets().add("/interfaces/login/login.css");
         stage.setScene(scene);
+        stage.setFullScreen(true);
+
         stage.show();
     }
 
@@ -39,5 +40,5 @@ public class HotelManagment extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }

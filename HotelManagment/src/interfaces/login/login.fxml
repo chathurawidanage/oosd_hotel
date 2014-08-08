@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="loginContainer" prefHeight="281.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.login.LoginController">
+   <children>
+      <Label prefHeight="100.0" text="Hotel management System" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="41.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </Label>
+      <AnchorPane layoutX="3.0" layoutY="131.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <AnchorPane layoutX="314.0" layoutY="1.0" prefHeight="147.0" prefWidth="251.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="314.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="1.0">
+               <children>
+                  <TextField prefHeight="40.0" prefWidth="250.0" promptText="Username">
+                     <font>
+                        <Font size="18.0" />
+                     </font></TextField>
+                  <PasswordField layoutY="54.0" prefHeight="40.0" prefWidth="250.0" promptText="Password">
+                     <font>
+                        <Font size="18.0" />
+                     </font></PasswordField>
+                  <Button layoutX="140.0" layoutY="99.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="108.0" text="Login" />
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
