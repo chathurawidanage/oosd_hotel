@@ -3,7 +3,7 @@
 package elements;
 
 /**
- * Supplier class
+ * Supplier class 
  * @author Theekshana
  */
 public class Supplier extends Person {
@@ -18,6 +18,7 @@ public class Supplier extends Person {
         return noOfTransactions ;
     }
     
+    //make the transaction +1
     public boolean incrementTransactions() {
         
         noOfTransactions += 1 ; 
